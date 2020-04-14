@@ -1,0 +1,79 @@
+python projects on GitPod Commands with Python 3.8.2 (the last estable version):
+
+pyenv versions
+
+pyenv install 3.8.2 or pyenv local 3.7.0
+
+pyenv versions
+
+pyenv local 3.8.2 
+
+python --version
+
+python -m pip venv activate  or  pip install virtualenv
+
+pip install --upgrade pip
+
+python -m pip install virtualenv  or  pip install pipenv
+
+python -m pip freeze
+
+pipenv shell
+
+pipenv install flask
+
+pipenv install gunicorn
+
+pipenv install pip freeze
+
+python index.py
+
+.........
+
+exit
+
+
+
+____________________________________
+
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route('/')
+def hello_world():
+    return ('hello world!')
+
+
+
+if __name__ == '__main__':
+    app.run(debug=True)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pip install virtualenv
+
+pip install pipenv
+
+python -m venv venv
+
+pipenv shell
+
+
+
+
+
