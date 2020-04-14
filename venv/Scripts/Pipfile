@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+flask = "*"
+
+[packages]
+python = "==3.6.10"
+gunicorn = "*"
+flask = "*"
+pip = "*"
+requests = "==2.13.0"
+freeze = "*"
+python3-6-7 = "*"
+
+[requires]
+python_version = "3.8"
